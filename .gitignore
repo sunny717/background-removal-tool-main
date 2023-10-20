@@ -1,0 +1,29 @@
+.vscode
+.DS_Store
+*.pth 
+__pycache__
+venv/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+background-removal-app/node_modules
+background-removal-app/.pnp
+background-removal-app/.pnp.js
+
+# testing
+background-removal-app/coverage
+
+# production
+background-removal-app/build
+
+# misc
+background-removal-app/.DS_Store
+background-removal-app/.env.local
+background-removal-app/.env.development.local
+background-removal-app/.env.test.local
+background-removal-app/.env.production.local
+
+background-removal-app/npm-debug.log*
+background-removal-app/yarn-debug.log*
+background-removal-app/yarn-error.log*
